@@ -1,0 +1,52 @@
+body {
+	font: 'Open Sans', sans-serif;
+    display: inline;
+    color: rgba(0,0,0,1);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em 'Open Sans', sans-serif;
+    color: rgba(0,0,0,1);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Open Sans', sans-serif;
+    color: rgba(0,0,0,1);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+.colortext {
+    font: 900 1em 'Open Sans', sans-serif;
+    color: rgba(0,0,0,1);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    font: 'Open Sans', sans-serif;
+    padding: 15px 32px;
+    color: white;
+    border:none;
+    text-align: center;
+    font-size: 14px;
+    background-color: #0253b3;
+}
+
+input[type='color'] {
+  display: block;
+  margin: 0 auto;
+}
